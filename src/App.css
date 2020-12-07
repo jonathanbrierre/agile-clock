@@ -7,7 +7,7 @@
 
 
 .small-clock{
-  border: 1px solid black;
+  border: 10px solid #8C9ACF;
   width: 35vh;
   height: 35vh;
   border-radius: 50%;
@@ -15,7 +15,7 @@
 }
 
 .middle-clock {
-  border: 1px solid black;
+  border: 10px solid #8C9ACF;
   width: 60vh;
   height: 60vh;
   border-radius: 50%;
@@ -23,7 +23,7 @@
 }
 
 .large-clock {
-  border: 1px solid black;
+  border: 10px solid #8C9ACF;
   width: 80vh;
   height: 80vh;
   border-radius: 50%;
@@ -35,6 +35,23 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  transform: rotate();
+  /*border: 1px solid black;*/
+  display: flex;
+  justify-content: center;
+
+}
+
+.tick-bubble{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  color: white;
+  background-color: #162667;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 

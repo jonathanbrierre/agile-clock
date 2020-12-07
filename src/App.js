@@ -22,7 +22,7 @@ function App() {
             transform: `rotate(${rotateDeg}deg)`
           }}
         >
-          {i}
+          <div className="tick-bubble" style = {{transform: `rotate(-${rotateDeg }deg)`}}>{i}</div>
         </div>
 
         )
@@ -53,7 +53,7 @@ function App() {
 
 
 //
-    const businessDays = differenceInBusinessDays(now, oneMonthAgo)
+    const businessDays = differenceInBusinessDays(now, now)
 
 
     const smallClockRotation = () => {
